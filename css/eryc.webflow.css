@@ -8,6 +8,10 @@ body {
   line-height: 20px;
 }
 
+a {
+  text-decoration: underline;
+}
+
 .header {
   position: fixed;
   left: 0px;
@@ -270,5 +274,81 @@ body {
   font-weight: 900;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+  .work-link {
+    font-size: 46px;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo {
+    font-size: 28px;
+  }
+  .logo.w--current {
+    font-size: 25px;
+  }
+  .main.about {
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    background-position: 68% 50%;
+    background-size: 1200px;
+  }
+  .work-link {
+    margin-bottom: 20px;
+    font-size: 46px;
+    line-height: 0.8;
+  }
+  .about-content {
+    padding-bottom: 18px;
+  }
+  .about-text {
+    width: 65%;
+    font-size: 24px;
+  }
+  .contact-link {
+    font-size: 20px;
+  }
+  .notes-link {
+    max-width: 100%;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 479px) {
+  .logo {
+    font-size: 26px;
+  }
+  .outline.bold {
+    display: none;
+  }
+  .nav-links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .nav-link {
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+  .work-link {
+    font-size: 33px;
+    line-height: 0.8;
+  }
+  .about-text {
+    width: 100%;
+  }
+  .contact-link {
+    font-size: 18px;
+  }
+  .notes-link {
+    margin-bottom: 65px;
+    font-size: 28px;
+  }
 }
 
