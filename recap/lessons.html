@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri Dec 28 2018 23:01:05 GMT+0000 (UTC)  -->
+<!--  Last Published: Fri Dec 28 2018 23:31:15 GMT+0000 (UTC)  -->
 <html data-wf-page="5c26467077f283e6ad9d45b0" data-wf-site="5c25a6d53c78e566378de602" lang="en">
 <head>
   <meta charset="utf-8">
@@ -60,11 +60,11 @@
 </head>
 <body>
   <div class="fixed-nav-left">
-    <a href="/recap/" class="nav-logo w-inline-block">
+    <a href="javascript:history.back();" class="nav-logo w-inline-block">
       <div>E</div>
       <div class="nav-logo-back">Go back?</div>
     </a>
-    <a href="/recap/" class="nav-name w-inline-block">
+    <a href="javascript:delay(&#x27;/&#x27;);" class="nav-name w-inline-block">
       <div class="nav-name-text">Eryc.Design <span class="nav-name-text-span">web design studio</span></div>
     </a>
   </div>
@@ -120,34 +120,41 @@
       <div class="page-title-text">lessons</div>
     </div>
     <div class="page-numbers">
-      <a href="/recap/tldr" class="page-number w-inline-block">
+      <a href="javascript:delay(&#x27;tldr&#x27;);" class="page-number w-inline-block">
         <div class="page-number-text">01</div>
         <div class="page-number-label">TL;DR</div>
       </a>
-      <a href="/recap/work" class="page-number w-inline-block">
+      <a href="javascript:delay(&#x27;work&#x27;);" class="page-number w-inline-block">
         <div class="page-number-text">02</div>
         <div class="page-number-label">WORK</div>
       </a>
-      <a href="/recap/lessons" class="page-number w-inline-block w--current">
+      <a href="javascript:delay(&#x27;lessons&#x27;);" class="page-number w-inline-block">
         <div class="page-number-text">03</div>
         <div class="page-number-label">LESSONS</div>
       </a>
-      <a href="/recap/books" class="page-number w-inline-block">
+      <a href="javascript:delay(&#x27;books&#x27;);" class="page-number w-inline-block">
         <div class="page-number-text">04</div>
         <div class="page-number-label">BOOKS</div>
       </a>
-      <a href="/recap/gratitude" class="page-number w-inline-block">
+      <a href="javascript:delay(&#x27;gratitude&#x27;);" class="page-number w-inline-block">
         <div class="page-number-text">05</div>
         <div class="page-number-label">GRATITUDE</div>
       </a>
-      <a href="/recap/2019" class="page-number w-inline-block">
+      <a href="javascript:delay(&#x27;2019&#x27;);" class="page-number w-inline-block">
         <div class="page-number-text">06</div>
         <div class="page-number-label">2019</div>
       </a>
     </div>
   </div>
+  <div class="top-loader"></div>
+  <div class="bottom-loader"></div>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script>
+function delay (URL) {
+setTimeout( function() { window.location = URL }, 850 );
+}
+</script>
 </body>
 </html>
