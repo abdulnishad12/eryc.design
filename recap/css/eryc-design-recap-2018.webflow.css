@@ -301,7 +301,7 @@ h3 {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  min-width: 94px;
+  width: 94px;
   padding: 45px 25px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1112,6 +1112,7 @@ h3 {
   }
   .fixed-nav-right {
     position: relative;
+    width: auto;
     padding: 20px 5%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
