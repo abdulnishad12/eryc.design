@@ -483,6 +483,8 @@ h3 {
   margin: auto;
   background-color: #000;
   box-shadow: 15px 0 100px -14px rgba(15, 21, 33, .9);
+  -webkit-perspective: 1px;
+  perspective: 1px;
 }
 
 .work-link-bg.mentores-online {
@@ -527,12 +529,20 @@ h3 {
 .work-link-title.outline.b2 {
   position: relative;
   z-index: 90;
+  -webkit-perspective: 1357px;
+  perspective: 1357px;
+  -webkit-perspective-origin: 0% 0%;
+  perspective-origin: 0% 0%;
 }
 
 .work-link-sub-title {
   position: relative;
   z-index: 90;
   margin-bottom: 20px;
+  -webkit-perspective: 1482px;
+  perspective: 1482px;
+  -webkit-perspective-origin: 0% 0%;
+  perspective-origin: 0% 0%;
   font-family: titling-gothic-fb-wide, sans-serif;
   color: #fff;
   font-size: 1.2rem;
@@ -551,6 +561,10 @@ h3 {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-perspective: 1482px;
+  perspective: 1482px;
+  -webkit-perspective-origin: 0% 0%;
+  perspective-origin: 0% 0%;
   font-family: titling-gothic-fb-condensed, sans-serif;
   color: #fff;
   font-size: 1rem;
