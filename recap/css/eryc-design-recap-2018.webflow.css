@@ -1046,6 +1046,30 @@ h3 {
   align-items: stretch;
 }
 
+.top-loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 99999;
+  display: none;
+  width: 100vw;
+  height: 50vh;
+  background-color: #0e0e0e;
+}
+
+.bottom-loader {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 99999;
+  display: none;
+  width: 100vw;
+  height: 50vh;
+  background-color: #0e0e0e;
+}
+
 @media (max-width: 991px) {
   .fixed-nav-left {
     left: 0px;
