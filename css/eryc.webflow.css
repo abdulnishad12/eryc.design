@@ -329,6 +329,110 @@ a {
   text-align: center;
 }
 
+.b2b-typography-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #001585;
+}
+
+.b2b-typography-fille {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: nimbus-sans-extended, sans-serif;
+  color: #fff;
+  font-size: 118px;
+  line-height: 1;
+  letter-spacing: 0px;
+}
+
+.b2b-typography-fille.outline {
+  position: absolute;
+  line-height: 0;
+}
+
+.b2b-typography-outline.outline {
+  font-family: nimbus-sans-extended, sans-serif;
+}
+
+.html-embed {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 145px;
+  padding: 34px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  font-family: nimbus-sans-extended, sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.buy-title {
+  margin-top: 132px;
+  font-family: nimbus-sans-extended, sans-serif;
+  color: #fff;
+}
+
+.buy-text {
+  font-family: nimbus-sans-extended, sans-serif;
+  color: #fff;
+}
+
+.buy-link {
+  color: #bbb;
+}
+
+.html-embed-2 {
+  margin-top: 43px;
+  margin-bottom: 43px;
+}
+
 @media (max-width: 991px) {
   .work-link {
     font-size: 46px;
