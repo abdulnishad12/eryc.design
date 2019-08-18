@@ -520,8 +520,6 @@ a {
   grid-row-end: 4;
   -ms-grid-column-align: center;
   justify-self: center;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
 }
@@ -535,8 +533,6 @@ a {
   grid-row-start: 5;
   -ms-grid-row-span: 3;
   grid-row-end: 8;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
   -ms-grid-column-align: center;
@@ -552,8 +548,6 @@ a {
   grid-row-start: 2;
   -ms-grid-row-span: 3;
   grid-row-end: 5;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
   -ms-grid-column-align: center;
