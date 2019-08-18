@@ -2,11 +2,17 @@
 
 My personal website where I showcase my work and services.
 
-[**Version 2**](https://eryc.design/)
+## Timeline
+
+- [**August, 18th** — Launched the Version 2 of the website](#E-Design-—-Version-2)
+- Recap of my first year as a freelancer
+- Launched the First Version of the website
+
+### E. Design — Version 2
 ![eryc.design version 2](/previews/website-v2.png)
 
-[**Recap 2018**](https://eryc.design/recap)
+### 2018 Recap
 ![eryc.design recap](/previews/website-recap.png)
 
-[**Version 1**](https://eryc.design/2018)
+### E. Design — Version 1
 ![eryc.design version 1](/previews/website-v1.png)
