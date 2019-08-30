@@ -201,6 +201,8 @@ p {
   margin-top: 0px;
   margin-bottom: 0px;
   opacity: 0.6;
+  -webkit-perspective-origin: 50% 100%;
+  perspective-origin: 50% 100%;
   font-size: 1em;
   line-height: 1.2;
 }
@@ -209,8 +211,10 @@ p {
   overflow: hidden;
   margin-top: 20px;
   margin-bottom: 0px;
+  -webkit-perspective-origin: 50% 100%;
+  perspective-origin: 50% 100%;
   font-size: 2.8em;
-  line-height: 1;
+  line-height: 1.1;
   font-weight: 300;
 }
 
