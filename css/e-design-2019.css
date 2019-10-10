@@ -315,6 +315,25 @@ p {
   background-attachment: scroll;
 }
 
+.portfolio-bg.uppoints {
+  z-index: 1;
+  background-image: url('../images/5d7b1b7d3a8c258aa14b483c_hero--background2x.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.portfolio-bg.only-diary {
+  z-index: 1;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.68)), to(rgba(0, 0, 0, 0.68))), url('../images/keren-perez-LpKso44P3eg-unsplash-2-2.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)), url('../images/keren-perez-LpKso44P3eg-unsplash-2-2.jpg');
+  background-position: 0px 0px, 50% 100%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, scroll;
+}
+
 .portfolio-content {
   display: -webkit-box;
   display: -webkit-flex;
@@ -434,6 +453,7 @@ p {
 }
 
 .service-link {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -907,6 +927,31 @@ p {
   font-size: 2.4rem;
   line-height: 1.4;
   font-weight: 500;
+}
+
+.mouse-over-button-wrapper {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.mouse-over-button {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  padding: 9px 6px 6px;
+  border-radius: 6px;
+  background-color: #8b8b8b;
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 991px) {
