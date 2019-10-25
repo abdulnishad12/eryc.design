@@ -2,6 +2,8 @@
 
 My personal website where I showcase my work and services.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0c5b02c2-88d6-4200-9755-3f252b5f30d1/deploy-status)](https://app.netlify.com/sites/eryc/deploys)
+
 ## Timeline
 
 - [**August, 18th** — Launched the Version 2 of the website](#e-design--version-2)
